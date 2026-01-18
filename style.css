@@ -161,3 +161,49 @@ main {
   text-decoration: none;
   border-radius: 8px;
 }
+@media (max-width: 768px) {
+
+  /* HERO SECTION */
+  .hero {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero-image img {
+    width: 160px;
+  }
+
+  /* STUDIES (2 στήλες -> 1) */
+  .studies-grid {
+    grid-template-columns: 1fr;
+  }
+
+  /* PROJECTS */
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+
+  /* NAVIGATION */
+  nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+
+}
+@media (max-width: 768px) {
+
+  body {
+    font-size: 16px;
+  }
+
+  h1 {
+    font-size: 2em;
+  }
+
+  h2 {
+    font-size: 1.1em;
+  }
+
+}
